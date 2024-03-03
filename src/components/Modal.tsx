@@ -7,7 +7,7 @@ import LikesIcon from "../assets/Likes.svg";
 import DownloadsIcon from "../assets/Downloads.svg";
 import CloseIcon from "../assets/Close.svg";
 
-export const Modal = ({ closeModal, id, image, profileImage, portfolioUrl,name}:newModalProps, like:number) => {
+export const Modal = ({ closeModal, id, image, profileImage, portfolioUrl,name}:newModalProps) => {
 
     const API_Statistics_URL = 'https://api.unsplash.com/photos';
     const [stats, setStats] = useState<statsType | null>();
