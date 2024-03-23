@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {lightPurple} from "./Colors.style";
+import {lightGreen, lightPurple} from "./Colors.style";
 
 export const MainContainer = styled.div`
     margin-top:120px;
@@ -10,11 +10,15 @@ export const MainContainer = styled.div`
 export const Input = styled.input`
 
   background-color: white;
-  max-width: 250px;
-  height: 40px;
+  width:80%;
+  max-width: 380px;
+  height: 45px;
   padding: 10px;
   border: none;
   border-radius: 5px;
+  border: 2px dashed ${lightPurple};
+  color:${lightGreen};
+  font-size:1em;
   &:focus {
     color: ${lightPurple};
     outline-color: ${lightPurple};

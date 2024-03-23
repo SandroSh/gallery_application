@@ -68,5 +68,13 @@ export interface newModalProps {
   name: string;
   profileImage: string;
   portfolioUrl: string;
-  
+  likes:number;
 }
+
+export interface modalInfo  {
+ 
+  modalInfo : newModalProps | undefined;
+  
+};
+
+

@@ -5,7 +5,7 @@ export const SearchInput = () => {
 
   return (
     <MainContainer>
-      <Input placeholder="Search Images....." />
+      <Input placeholder="Search Images..." />
     </MainContainer>
   )
 }
